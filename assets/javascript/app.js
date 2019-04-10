@@ -7,8 +7,6 @@ var config = {
     messagingSenderId: "961156530342"
 };
 firebase.initializeApp(config);
-
-
 var database = firebase.database();
 var timeFormat = "HH:mm";
 
@@ -57,4 +55,3 @@ $(document).on("click", "#submitBTN", function () {
         frequency: newFrequency,
     });
 })
-
